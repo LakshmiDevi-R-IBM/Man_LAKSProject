@@ -11,6 +11,7 @@
     <cloudstreamsCollectionKeys serviceName="WmWorkdayProvider.SOAPVS">
         <servicesKeys>
             <keyDetails collectionKey="project.man_laks.WmWorkdayProvider.com_webmethods_cloudstreams_workday_v46_2.operations.actions:get" connectorServiceName="project.man_laks.WmWorkdayProvider.com_webmethods_cloudstreams_workday_v46_2.operations.actions:get"/>
+            <keyDetails collectionKey="project.man_laks.WmWorkdayProvider.com_webmethods_cloudstreams_workday_v46_2.operations.actions:testget" connectorServiceName="project.man_laks.WmWorkdayProvider.com_webmethods_cloudstreams_workday_v46_2.operations.actions:testget"/>
         </servicesKeys>
     </cloudstreamsCollectionKeys>
     <cloudstreamsCollectionKeys serviceName="WmCloudStreams.SoapVS">
