@@ -140,6 +140,22 @@
                       <value name="form_qualified">false</value>
                       <value name="is_global">false</value>
                     </record>
+                    <record javaclass="com.wm.util.Values">
+                      <value name="node_type">field</value>
+                      <value name="node_subtype">unknown</value>
+                      <record name="node_hints" javaclass="com.wm.util.Values">
+                        <value name="nativeType">Edm.String</value>
+                      </record>
+                      <value name="is_public">false</value>
+                      <value name="displayName">PurchaseOrderType</value>
+                      <value name="field_name">PurchaseOrderType</value>
+                      <value name="field_type">string</value>
+                      <value name="field_dim">0</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">true</value>
+                      <value name="form_qualified">false</value>
+                      <value name="is_global">false</value>
+                    </record>
                   </array>
                   <value name="modifiable">true</value>
                 </record>
@@ -815,7 +831,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="modifiedBy">LakshmiDevi.R@ibm.com</value>
-    <value name="lastModifiedDate">2026-10-26T07:22:41.036210104Z</value>
+    <value name="lastModifiedDate">2026-10-26T07:25:32.100957826Z</value>
   </record>
   <value name="svc_in_validator_options">none</value>
   <value name="svc_out_validator_options">none</value>
@@ -958,6 +974,22 @@
                 <value name="value">true</value>
               </record>
             </array>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="fieldName">PurchaseOrderType</value>
+            <value name="fieldLabel">PurchaseOrderType</value>
+            <null name="description"/>
+            <value name="fieldDimension">0</value>
+            <value name="nativeType">Edm.String</value>
+            <value name="soapType">xsd:string</value>
+            <null name="wrapperType"/>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">true</Boolean>
+            <null name="picklist"/>
+            <null name="xmlNamespace"/>
+            <Boolean name="isCustom">false</Boolean>
+            <Boolean name="allowUnspecifiedFields">false</Boolean>
+            <null name="attributes"/>
           </record>
         </array>
         <array name="customBusinessParams" type="record" depth="1">
