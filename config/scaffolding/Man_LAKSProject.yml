@@ -7,6 +7,15 @@ packages:
   gitUrl: https://github.com/LakshmiDevi-R-IBM
   gitUsername: LakshmiDevi-R-IBM
   gitBranch: main
+services:
+- serviceName: project.man_laks.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.connections:sf_basic
+  packages:
+  - name: Man_LAKSProject
+    version: "1.0"
+- serviceName: project.man_laks.streaming.connections:EmbeddedMessaging
+  packages:
+  - name: Man_LAKSProject
+    version: "1.0"
 configurationVariables:
   jdbc.SAP TxStore Pool.maxConns: "10"
   jdbcfunc.SAPTxStore.failFastMode: false
