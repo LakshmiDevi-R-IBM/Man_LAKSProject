@@ -2,6 +2,7 @@
 <services>
     <cloudstreamsCollectionKeys serviceName="WmCloudStreams.RestVS">
         <servicesKeys>
+            <keyDetails collectionKey="project.man_laks.WmSAPS4HANACloudProvider.com_webmethods_cloudstreams_sap_s4hanacloud_odata_v2.operations.actions:test" connectorServiceName="project.man_laks.WmSAPS4HANACloudProvider.com_webmethods_cloudstreams_sap_s4hanacloud_odata_v2.operations.actions:test"/>
             <keyDetails collectionKey="project.man_laks.WmShopifyProvider.com_webmethods_cloudstreams_shopify_v201904.operations.actions:list" connectorServiceName="project.man_laks.WmShopifyProvider.com_webmethods_cloudstreams_shopify_v201904.operations.actions:list"/>
         </servicesKeys>
     </cloudstreamsCollectionKeys>
