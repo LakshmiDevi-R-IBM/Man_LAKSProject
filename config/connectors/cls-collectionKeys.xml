@@ -8,6 +8,11 @@
             <keyDetails collectionKey="project.man_laks.WmShopifyProvider.com_webmethods_cloudstreams_shopify_v201904.operations.actions:list" connectorServiceName="project.man_laks.WmShopifyProvider.com_webmethods_cloudstreams_shopify_v201904.operations.actions:list"/>
         </servicesKeys>
     </cloudstreamsCollectionKeys>
+    <cloudstreamsCollectionKeys serviceName="WmWorkdayProvider.SOAPVS">
+        <servicesKeys>
+            <keyDetails collectionKey="project.man_laks.WmWorkdayProvider.com_webmethods_cloudstreams_workday_v46_2.operations.actions:get" connectorServiceName="project.man_laks.WmWorkdayProvider.com_webmethods_cloudstreams_workday_v46_2.operations.actions:get"/>
+        </servicesKeys>
+    </cloudstreamsCollectionKeys>
     <cloudstreamsCollectionKeys serviceName="WmCloudStreams.SoapVS">
         <servicesKeys>
             <keyDetails collectionKey="project.man_laks.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.operations.actions:test" connectorServiceName="project.man_laks.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.operations.actions:test"/>
