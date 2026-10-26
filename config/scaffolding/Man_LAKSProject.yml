@@ -12,6 +12,12 @@ packages:
   wpmServer: https://packages.webmethods.io
   wpmRegistry: supported
 services:
+- serviceName: project.man_laks.WmSAPS4HANACloudProvider.com_webmethods_cloudstreams_sap_s4hanacloud_odata_v2.connections:sap_hana
+  packages:
+  - name: Man_LAKSProject
+    version: "1.0"
+  - name: WmShopifyProvider
+    version: 12.0.0.0.11
 - serviceName: project.man_laks.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.connections:sf_basic
   packages:
   - name: Man_LAKSProject
