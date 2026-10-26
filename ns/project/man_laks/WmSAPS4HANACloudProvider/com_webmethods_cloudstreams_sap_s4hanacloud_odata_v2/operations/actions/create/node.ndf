@@ -84,9 +84,9 @@
                 <record javaclass="com.wm.util.Values">
                   <value name="node_type">record</value>
                   <value name="node_subtype">unknown</value>
-                  <value name="node_comment">A_PurOrdAccountAssignmentType(API_PURCHASEORDER_PROCESS_SRV.A_PurOrdAccountAssignment)</value>
+                  <value name="node_comment">A_PurchaseOrderType(API_PURCHASEORDER_PROCESS_SRV.A_PurchaseOrder)</value>
                   <value name="is_public">false</value>
-                  <value name="field_name">A_PurOrdAccountAssignmentType</value>
+                  <value name="field_name">A_PurchaseOrderType</value>
                   <value name="field_type">record</value>
                   <value name="field_dim">0</value>
                   <value name="nillable">true</value>
@@ -100,11 +100,12 @@
                         <value name="nativeType">Edm.String</value>
                       </record>
                       <value name="is_public">false</value>
-                      <value name="displayName">AccountAssignmentNumber</value>
-                      <value name="field_name">AccountAssignmentNumber</value>
+                      <value name="displayName">AddressCityName</value>
+                      <value name="field_name">AddressCityName</value>
                       <value name="field_type">string</value>
                       <value name="field_dim">0</value>
-                      <value name="nillable">false</value>
+                      <value name="field_opt">true</value>
+                      <value name="nillable">true</value>
                       <value name="form_qualified">false</value>
                       <value name="is_global">false</value>
                     </record>
@@ -115,8 +116,8 @@
                         <value name="nativeType">Edm.String</value>
                       </record>
                       <value name="is_public">false</value>
-                      <value name="displayName">BusinessProcess</value>
-                      <value name="field_name">BusinessProcess</value>
+                      <value name="displayName">AddressCountry</value>
+                      <value name="field_name">AddressCountry</value>
                       <value name="field_type">string</value>
                       <value name="field_dim">0</value>
                       <value name="field_opt">true</value>
@@ -133,21 +134,6 @@
                       <value name="is_public">false</value>
                       <value name="displayName">PurchaseOrder</value>
                       <value name="field_name">PurchaseOrder</value>
-                      <value name="field_type">string</value>
-                      <value name="field_dim">0</value>
-                      <value name="nillable">false</value>
-                      <value name="form_qualified">false</value>
-                      <value name="is_global">false</value>
-                    </record>
-                    <record javaclass="com.wm.util.Values">
-                      <value name="node_type">field</value>
-                      <value name="node_subtype">unknown</value>
-                      <record name="node_hints" javaclass="com.wm.util.Values">
-                        <value name="nativeType">Edm.String</value>
-                      </record>
-                      <value name="is_public">false</value>
-                      <value name="displayName">PurchaseOrderItem</value>
-                      <value name="field_name">PurchaseOrderItem</value>
                       <value name="field_type">string</value>
                       <value name="field_dim">0</value>
                       <value name="nillable">false</value>
@@ -248,7 +234,7 @@
                   <value name="node_type">record</value>
                   <value name="node_subtype">unknown</value>
                   <value name="is_public">false</value>
-                  <value name="field_name">A_PurOrdAccountAssignmentType</value>
+                  <value name="field_name">A_PurchaseOrderType</value>
                   <value name="field_type">record</value>
                   <value name="field_dim">0</value>
                   <value name="field_opt">true</value>
@@ -261,30 +247,6 @@
                       <value name="node_subtype">unknown</value>
                       <value name="is_public">false</value>
                       <value name="field_name">PurchaseOrder</value>
-                      <value name="field_type">string</value>
-                      <value name="field_dim">0</value>
-                      <value name="field_opt">true</value>
-                      <value name="nillable">true</value>
-                      <value name="form_qualified">false</value>
-                      <value name="is_global">false</value>
-                    </record>
-                    <record javaclass="com.wm.util.Values">
-                      <value name="node_type">field</value>
-                      <value name="node_subtype">unknown</value>
-                      <value name="is_public">false</value>
-                      <value name="field_name">PurchaseOrderItem</value>
-                      <value name="field_type">string</value>
-                      <value name="field_dim">0</value>
-                      <value name="field_opt">true</value>
-                      <value name="nillable">true</value>
-                      <value name="form_qualified">false</value>
-                      <value name="is_global">false</value>
-                    </record>
-                    <record javaclass="com.wm.util.Values">
-                      <value name="node_type">field</value>
-                      <value name="node_subtype">unknown</value>
-                      <value name="is_public">false</value>
-                      <value name="field_name">AccountAssignmentNumber</value>
                       <value name="field_type">string</value>
                       <value name="field_dim">0</value>
                       <value name="field_opt">true</value>
@@ -853,7 +815,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="modifiedBy">LakshmiDevi.R@ibm.com</value>
-    <value name="lastModifiedDate">2026-10-26T07:19:36.344687463Z</value>
+    <value name="lastModifiedDate">2026-10-26T07:22:41.036210104Z</value>
   </record>
   <value name="svc_in_validator_options">none</value>
   <value name="svc_out_validator_options">none</value>
@@ -929,14 +891,14 @@
       </array>
       <value name="interactionStyle">businessObject</value>
       <record name="businessObject" javaclass="com.wm.util.Values">
-        <value name="boName">A_PurOrdAccountAssignmentType</value>
-        <value name="boDisplayName">A_PurOrdAccountAssignmentType(API_PURCHASEORDER_PROCESS_SRV.A_PurOrdAccountAssignment)</value>
+        <value name="boName">A_PurchaseOrderType</value>
+        <value name="boDisplayName">A_PurchaseOrderType(API_PURCHASEORDER_PROCESS_SRV.A_PurchaseOrder)</value>
         <value name="boPath">record</value>
         <null name="boType"/>
         <array name="boAttributes" type="record" depth="1">
           <record javaclass="com.wm.util.Values">
             <value name="name">entitySetName</value>
-            <value name="value">A_PurOrdAccountAssignment</value>
+            <value name="value">A_PurchaseOrder</value>
           </record>
           <record javaclass="com.wm.util.Values">
             <value name="name">entityNamespace</value>
@@ -945,29 +907,24 @@
         </array>
         <array name="businessParams" type="record" depth="1">
           <record javaclass="com.wm.util.Values">
-            <value name="fieldName">AccountAssignmentNumber</value>
-            <value name="fieldLabel">AccountAssignmentNumber</value>
+            <value name="fieldName">AddressCityName</value>
+            <value name="fieldLabel">AddressCityName</value>
             <null name="description"/>
             <value name="fieldDimension">0</value>
             <value name="nativeType">Edm.String</value>
             <value name="soapType">xsd:string</value>
             <null name="wrapperType"/>
-            <Boolean name="isRequired">true</Boolean>
-            <Boolean name="isNillable">false</Boolean>
+            <Boolean name="isRequired">false</Boolean>
+            <Boolean name="isNillable">true</Boolean>
             <null name="picklist"/>
             <null name="xmlNamespace"/>
             <Boolean name="isCustom">false</Boolean>
             <Boolean name="allowUnspecifiedFields">false</Boolean>
-            <array name="attributes" type="record" depth="1">
-              <record javaclass="com.wm.util.Values">
-                <value name="name">isKeyProperty</value>
-                <value name="value">true</value>
-              </record>
-            </array>
+            <null name="attributes"/>
           </record>
           <record javaclass="com.wm.util.Values">
-            <value name="fieldName">BusinessProcess</value>
-            <value name="fieldLabel">BusinessProcess</value>
+            <value name="fieldName">AddressCountry</value>
+            <value name="fieldLabel">AddressCountry</value>
             <null name="description"/>
             <value name="fieldDimension">0</value>
             <value name="nativeType">Edm.String</value>
@@ -984,27 +941,6 @@
           <record javaclass="com.wm.util.Values">
             <value name="fieldName">PurchaseOrder</value>
             <value name="fieldLabel">PurchaseOrder</value>
-            <null name="description"/>
-            <value name="fieldDimension">0</value>
-            <value name="nativeType">Edm.String</value>
-            <value name="soapType">xsd:string</value>
-            <null name="wrapperType"/>
-            <Boolean name="isRequired">true</Boolean>
-            <Boolean name="isNillable">false</Boolean>
-            <null name="picklist"/>
-            <null name="xmlNamespace"/>
-            <Boolean name="isCustom">false</Boolean>
-            <Boolean name="allowUnspecifiedFields">false</Boolean>
-            <array name="attributes" type="record" depth="1">
-              <record javaclass="com.wm.util.Values">
-                <value name="name">isKeyProperty</value>
-                <value name="value">true</value>
-              </record>
-            </array>
-          </record>
-          <record javaclass="com.wm.util.Values">
-            <value name="fieldName">PurchaseOrderItem</value>
-            <value name="fieldLabel">PurchaseOrderItem</value>
             <null name="description"/>
             <value name="fieldDimension">0</value>
             <value name="nativeType">Edm.String</value>
