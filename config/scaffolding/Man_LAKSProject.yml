@@ -16,6 +16,14 @@ packages:
   wpmServer: https://packages.webmethods.io
   wpmRegistry: supported
 services:
+- serviceName: project.man_laks.WmAmazonEC2Provider.com_webmethods_cloudstreams_amazon_ec2_v2016_11_15.connections:ama_ec12
+  packages:
+  - name: Man_LAKSProject
+    version: "1.0"
+  - name: WmShopifyProvider
+    version: 12.0.0.0.11
+  - name: WmServiceNowProvider
+    version: 12.0.0.0.21
 - serviceName: project.man_laks.WmSAPS4HANACloudProvider.com_webmethods_cloudstreams_sap_s4hanacloud_odata_v2.operations.actions:create
   packages:
   - name: Man_LAKSProject
