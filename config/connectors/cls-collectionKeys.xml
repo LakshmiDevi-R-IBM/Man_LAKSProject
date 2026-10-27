@@ -17,6 +17,7 @@
     <cloudstreamsCollectionKeys serviceName="WmCloudStreams.SoapVS">
         <servicesKeys>
             <keyDetails collectionKey="project.man_laks.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.operations.actions:test" connectorServiceName="project.man_laks.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.operations.actions:test"/>
+            <keyDetails collectionKey="project.man_laks.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.operations.actions:test1" connectorServiceName="project.man_laks.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.operations.actions:test1"/>
         </servicesKeys>
     </cloudstreamsCollectionKeys>
 </services>
