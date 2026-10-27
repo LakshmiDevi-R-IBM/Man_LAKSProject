@@ -2,6 +2,7 @@
 <services>
     <cloudstreamsCollectionKeys serviceName="WmCloudStreams.RestVS">
         <servicesKeys>
+            <keyDetails collectionKey="project.man_laks.WmAmazonEC2Provider.com_webmethods_cloudstreams_amazon_ec2_v2016_11_15.operations.actions:test1" connectorServiceName="project.man_laks.WmAmazonEC2Provider.com_webmethods_cloudstreams_amazon_ec2_v2016_11_15.operations.actions:test1"/>
             <keyDetails collectionKey="project.man_laks.WmSAPS4HANACloudProvider.com_webmethods_cloudstreams_sap_s4hanacloud_odata_v2.operations.actions:create" connectorServiceName="project.man_laks.WmSAPS4HANACloudProvider.com_webmethods_cloudstreams_sap_s4hanacloud_odata_v2.operations.actions:create"/>
             <keyDetails collectionKey="project.man_laks.WmSAPS4HANACloudProvider.com_webmethods_cloudstreams_sap_s4hanacloud_odata_v2.operations.actions:query" connectorServiceName="project.man_laks.WmSAPS4HANACloudProvider.com_webmethods_cloudstreams_sap_s4hanacloud_odata_v2.operations.actions:query"/>
             <keyDetails collectionKey="project.man_laks.WmSAPS4HANACloudProvider.com_webmethods_cloudstreams_sap_s4hanacloud_odata_v2.operations.actions:test" connectorServiceName="project.man_laks.WmSAPS4HANACloudProvider.com_webmethods_cloudstreams_sap_s4hanacloud_odata_v2.operations.actions:test"/>
