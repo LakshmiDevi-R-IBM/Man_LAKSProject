@@ -15,6 +15,9 @@ packages:
   version: 12.0.0.0.21
   wpmServer: https://packages.webmethods.io
   wpmRegistry: supported
+- name: WmAmazonEC2Provider
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: supported
 services:
 - serviceName: project.man_laks.WmAmazonEC2Provider.com_webmethods_cloudstreams_amazon_ec2_v2016_11_15.connections:ama_ec12
   packages:
@@ -24,6 +27,8 @@ services:
     version: 12.0.0.0.11
   - name: WmServiceNowProvider
     version: 12.0.0.0.21
+  - name: WmAmazonEC2Provider
+    version: 12.0.0.0.15
 - serviceName: project.man_laks.WmSAPS4HANACloudProvider.com_webmethods_cloudstreams_sap_s4hanacloud_odata_v2.operations.actions:create
   packages:
   - name: Man_LAKSProject
@@ -32,6 +37,8 @@ services:
     version: 12.0.0.0.11
   - name: WmServiceNowProvider
     version: 12.0.0.0.21
+  - name: WmAmazonEC2Provider
+    version: 12.0.0.0.15
 - serviceName: project.man_laks.WmSAPS4HANACloudProvider.com_webmethods_cloudstreams_sap_s4hanacloud_odata_v2.operations.actions:query
   packages:
   - name: Man_LAKSProject
@@ -40,6 +47,8 @@ services:
     version: 12.0.0.0.11
   - name: WmServiceNowProvider
     version: 12.0.0.0.21
+  - name: WmAmazonEC2Provider
+    version: 12.0.0.0.15
 - serviceName: project.man_laks.WmSAPS4HANACloudProvider.com_webmethods_cloudstreams_sap_s4hanacloud_odata_v2.operations.actions:test
   packages:
   - name: Man_LAKSProject
@@ -48,6 +57,8 @@ services:
     version: 12.0.0.0.11
   - name: WmServiceNowProvider
     version: 12.0.0.0.21
+  - name: WmAmazonEC2Provider
+    version: 12.0.0.0.15
 - serviceName: project.man_laks.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.operations.actions:test
   packages:
   - name: Man_LAKSProject
@@ -56,6 +67,8 @@ services:
     version: 12.0.0.0.11
   - name: WmServiceNowProvider
     version: 12.0.0.0.21
+  - name: WmAmazonEC2Provider
+    version: 12.0.0.0.15
 - serviceName: project.man_laks.WmServiceNowProvider.com_webmethods_cloudstreams_servicenow_sandiego.connections:serviceNow_conn
   packages:
   - name: Man_LAKSProject
@@ -64,6 +77,8 @@ services:
     version: 12.0.0.0.11
   - name: WmServiceNowProvider
     version: 12.0.0.0.21
+  - name: WmAmazonEC2Provider
+    version: 12.0.0.0.15
 - serviceName: project.man_laks.WmShopifyProvider.com_webmethods_cloudstreams_shopify_v201904.operations.actions:list
   packages:
   - name: Man_LAKSProject
@@ -72,6 +87,8 @@ services:
     version: 12.0.0.0.11
   - name: WmServiceNowProvider
     version: 12.0.0.0.21
+  - name: WmAmazonEC2Provider
+    version: 12.0.0.0.15
 - serviceName: project.man_laks.WmWorkdayProvider.com_webmethods_cloudstreams_workday_v46_2.operations.actions:get
   packages:
   - name: Man_LAKSProject
@@ -80,6 +97,8 @@ services:
     version: 12.0.0.0.11
   - name: WmServiceNowProvider
     version: 12.0.0.0.21
+  - name: WmAmazonEC2Provider
+    version: 12.0.0.0.15
 - serviceName: project.man_laks.WmWorkdayProvider.com_webmethods_cloudstreams_workday_v46_2.operations.actions:testget
   packages:
   - name: Man_LAKSProject
@@ -88,6 +107,8 @@ services:
     version: 12.0.0.0.11
   - name: WmServiceNowProvider
     version: 12.0.0.0.21
+  - name: WmAmazonEC2Provider
+    version: 12.0.0.0.15
 - serviceName: project.man_laks.integrations:daf
   packages:
   - name: Man_LAKSProject
@@ -96,6 +117,8 @@ services:
     version: 12.0.0.0.11
   - name: WmServiceNowProvider
     version: 12.0.0.0.21
+  - name: WmAmazonEC2Provider
+    version: 12.0.0.0.15
 - serviceName: wm.com_webmethods_cloudstreams_shopify_v201904.operations:ListAccessScopes
   packages:
   - name: WmShopifyProvider
