@@ -16,7 +16,7 @@ packages:
   wpmServer: https://packages.webmethods.io
   wpmRegistry: supported
 services:
-- serviceName: project.man_laks.WmSAPS4HANACloudProvider.com_webmethods_cloudstreams_sap_s4hanacloud_odata_v2.connections:sap_hana
+- serviceName: project.man_laks.WmSAPS4HANACloudProvider.com_webmethods_cloudstreams_sap_s4hanacloud_odata_v2.operations.actions:create
   packages:
   - name: Man_LAKSProject
     version: "1.0"
@@ -24,7 +24,7 @@ services:
     version: 12.0.0.0.11
   - name: WmServiceNowProvider
     version: 12.0.0.0.21
-- serviceName: project.man_laks.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.connections:sf_basic
+- serviceName: project.man_laks.WmSAPS4HANACloudProvider.com_webmethods_cloudstreams_sap_s4hanacloud_odata_v2.operations.actions:query
   packages:
   - name: Man_LAKSProject
     version: "1.0"
@@ -32,7 +32,7 @@ services:
     version: 12.0.0.0.11
   - name: WmServiceNowProvider
     version: 12.0.0.0.21
-- serviceName: project.man_laks.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.connections:sf_new
+- serviceName: project.man_laks.WmSAPS4HANACloudProvider.com_webmethods_cloudstreams_sap_s4hanacloud_odata_v2.operations.actions:test
   packages:
   - name: Man_LAKSProject
     version: "1.0"
@@ -40,7 +40,7 @@ services:
     version: 12.0.0.0.11
   - name: WmServiceNowProvider
     version: 12.0.0.0.21
-- serviceName: project.man_laks.WmShopifyProvider.com_webmethods_cloudstreams_shopify_v201904.connections:shopify_acc
+- serviceName: project.man_laks.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.operations.actions:test
   packages:
   - name: Man_LAKSProject
     version: "1.0"
@@ -48,7 +48,31 @@ services:
     version: 12.0.0.0.11
   - name: WmServiceNowProvider
     version: 12.0.0.0.21
-- serviceName: project.man_laks.WmWorkdayProvider.com_webmethods_cloudstreams_workday_v46_2.connections:wd_conn
+- serviceName: project.man_laks.WmServiceNowProvider.com_webmethods_cloudstreams_servicenow_sandiego.connections:serviceNow_conn
+  packages:
+  - name: Man_LAKSProject
+    version: "1.0"
+  - name: WmShopifyProvider
+    version: 12.0.0.0.11
+  - name: WmServiceNowProvider
+    version: 12.0.0.0.21
+- serviceName: project.man_laks.WmShopifyProvider.com_webmethods_cloudstreams_shopify_v201904.operations.actions:list
+  packages:
+  - name: Man_LAKSProject
+    version: "1.0"
+  - name: WmShopifyProvider
+    version: 12.0.0.0.11
+  - name: WmServiceNowProvider
+    version: 12.0.0.0.21
+- serviceName: project.man_laks.WmWorkdayProvider.com_webmethods_cloudstreams_workday_v46_2.operations.actions:get
+  packages:
+  - name: Man_LAKSProject
+    version: "1.0"
+  - name: WmShopifyProvider
+    version: 12.0.0.0.11
+  - name: WmServiceNowProvider
+    version: 12.0.0.0.21
+- serviceName: project.man_laks.WmWorkdayProvider.com_webmethods_cloudstreams_workday_v46_2.operations.actions:testget
   packages:
   - name: Man_LAKSProject
     version: "1.0"
@@ -68,14 +92,6 @@ services:
   packages:
   - name: WmShopifyProvider
     version: 12.0.0.0.11
-- serviceName: project.man_laks.streaming.connections:EmbeddedMessaging
-  packages:
-  - name: Man_LAKSProject
-    version: "1.0"
-  - name: WmShopifyProvider
-    version: 12.0.0.0.11
-  - name: WmServiceNowProvider
-    version: 12.0.0.0.21
 configurationVariables:
   jdbc.SAP TxStore Pool.maxConns: "10"
   jdbcfunc.SAPTxStore.failFastMode: false
