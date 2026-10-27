@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">LakshmiDevi.R@ibm.com</value>
-    <value name="createdDate">2026-10-27T09:47:46.379565966Z</value>
-    <value name="lastModifiedDate">2026-10-27T09:47:46.379565966Z</value>
+    <value name="lastModifiedBy">LakshmiDevi.R@ibm.com</value>
+    <value name="lastModifiedDate">2026-10-27T09:51:39.626759191Z</value>
     <value name="displayName">ama_ec</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -61,14 +60,10 @@
         <value name="name">Amazon EC2</value>
         <value name="itemType">APPS</value>
         <record name="operation" javaclass="com.wm.util.Values">
-          <value name="connectorID">com.webmethods.cloudstreams.amazon.ec2_v2016_11_15</value>
-          <value name="isCustom">false</value>
-          <value name="isDynamicOperation">false</value>
-          <value name="isImportedOperation">true</value>
-          <value name="nsName">fld_common.WmAmazonEC2Provider.com_webmethods_cloudstreams_amazon_ec2_v2016_11_15.operations.triggers:describeInstances</value>
-          <value name="operationName">describeInstances</value>
+          <value name="operationName">test1</value>
+          <value name="isCustom">true</value>
           <value name="operationType">actions</value>
-          <value name="packageName">WmAmazonEC2Provider</value>
+          <value name="connectionType">sagcloud</value>
           <value name="projectName">project.man_laks</value>
         </record>
         <value name="id">com.webmethods.cloudstreams.amazon.ec2_v2016_11_15</value>
@@ -78,11 +73,11 @@
         <Boolean name="hasAccount">true</Boolean>
         <record name="connection" javaclass="com.wm.util.Values">
           <value name="connectionName">ama_ec12</value>
-          <value name="connectionType">sagcloud</value>
+          <value name="connectionType"></value>
           <null name="description"/>
         </record>
         <value name="connectionNSName">project.man_laks.WmAmazonEC2Provider.com_webmethods_cloudstreams_amazon_ec2_v2016_11_15.connections:ama_ec12</value>
-        <value name="connectionType">sagcloud</value>
+        <value name="connectionType"></value>
         <value name="type">REST</value>
         <value name="version">v1.1</value>
         <value name="packageName">WmAmazonEC2Provider</value>
@@ -114,6 +109,7 @@
         <array name="mapSet" type="object" depth="1" javaclass="java.lang.Object">
         </array>
         <Boolean name="accountReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">0</value>
       </record>
     </record>
     <value name="modifiedBy">LakshmiDevi.R@ibm.com</value>
